@@ -2,6 +2,8 @@
 
 ##Basic docker ngnix/php-fpm configuration 
 
+Put PHP files in the folder  ./var/www/
+
 To run docker compose:
 ```
 docker-compose up
