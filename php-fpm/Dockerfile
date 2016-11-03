@@ -12,7 +12,7 @@ RUN apt-get update \
 ADD conf/www.conf /etc/php5/fpm/pool.d/www.conf
 ADD conf/custom.ini /usr/local/etc/php/conf.d/custom.ini
 
-RUN useradd symfony -p symfony
+RUN useradd root -p root
 
 RUN apt-get update
 RUN apt-get -y install wget
